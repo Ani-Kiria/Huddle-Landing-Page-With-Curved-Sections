@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f2f2f2;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  color: #00252e;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 24px 30 112px;
+  gap: 151px;
+}
+/* delete pixels */
+.logo {
+  width: 96px;
+  height: 16px;
+}
+.try-button {
+  font-size: 9.4px;
+  font-weight: 400;
+  color: #ff52c1;
+  border-radius: 11.8px;
+  box-shadow: 0 0 5px 0 rgba(255, 82, 193, 0.22);
+  border: solid 0.6px #ff52c1;
+  background-color: #fff;
+  width: 80px;
+  height: 24px;
+}
+.community-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+h1 {
+  width: 280px;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+.huddle-text {
+  width: 296px;
+  font-size: 14px;
+  text-align: center;
+}
+.getStarted-button {
+  all: unset;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  box-shadow: 0 3px 7px 0 rgba(0, 37, 46, 0.22);
+  background-color: #ff52c1;
+  margin-top: 24px;
+}
+.mockup-imageContainer {
+  display: flex;
+  justify-content: center;
+  margin: 104px 0 120px;
+}
+.statistics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 90px;
+  padding-top: 120px;
+}
+.statistics h2 {
+  font-size: 61px;
+  font-weight: bold;
+  text-align: left;
+}
+.statistics p {
+  font-size: 15px;
+  color: #808e9a;
+}
+.quantities {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
