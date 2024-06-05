@@ -13,6 +13,7 @@ body {
   font-family: "Open Sans", sans-serif;
   line-height: 1.5;
   color: #00252e;
+  width: 100vw;
 }
 .main-container {
   background-color: #fff;
@@ -101,14 +102,24 @@ h1 {
   flex-direction: column;
   align-items: flex-start;
 }
+.grow-box {
+  display: flex;
+  flex-direction: column;
+}
 .grow-div {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 1.6rem;
+  background-color: #f6fbff;
+}
+.mobile-top1 {
+  width: 100%;
 }
 .grow-illustration {
   width: 258px;
 }
+
 .grow-div h2 {
   font-family: "Poppins", sans-serif;
   text-align: center;
@@ -121,13 +132,14 @@ h1 {
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 21px;
+  max-width: 32rem;
 }
 .conversation-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1.6rem;
-  margin: 11.2rem 0 1.2rem;
+  margin: 11.2rem 0 12rem;
 }
 .conversation-image {
   width: 265.5px;
@@ -146,12 +158,18 @@ h1 {
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 2.1rem;
+  max-width: 32rem;
+}
+.users-box {
+  display: flex;
+  flex-direction: column;
 }
 .users-div {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1.6rem;
+  background-color: #f6fbff;
 }
 .user-image {
   width: 267px;
@@ -162,19 +180,21 @@ h1 {
   font-size: 2rem;
   font-weight: 700;
   line-height: 3px;
+  margin-top: 6.5rem;
 }
 .users-div p {
   text-align: center;
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 21px;
+  max-width: 32rem;
 }
 .last.section {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 4rem;
-  margin-bottom: 25.1rem;
+  margin: 6rem 0 25.1rem;
 }
 .last.section h2 {
   text-align: center;
@@ -182,6 +202,7 @@ h1 {
   font-size: 2.4rem;
   font-weight: 700;
   line-height: 3.6rem;
+  max-width: 34.4rem;
 }
 footer {
   display: flex;
@@ -190,6 +211,7 @@ footer {
   background-color: #00252e;
   color: #fff;
   font-size: 1.4rem;
+  padding: 8rem 0 4.6rem 2.8rem;
 }
 footer h2 {
   font-size: 2rem;
@@ -199,6 +221,7 @@ footer h2 {
 footer p {
   font-weight: 600;
   line-height: 2.4rem;
+  max-width: 32rem;
 }
 .subscribe {
   font-size: 1.6rem;
@@ -210,7 +233,23 @@ footer p {
   border: none;
   padding: 1.2rem 4.1rem;
 }
-.footer cont1 {
+.footer-cont1 {
   display: grid;
   gap: 1.6rem;
+  justify-items: center;
+}
+.footer-cont2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.6rem;
+}
+.phone {
+  display: flex;
+  gap: 1.6rem;
+}
+.email {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
 }
