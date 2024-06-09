@@ -14,6 +14,7 @@ body {
   line-height: 1.5;
   color: #00252e;
   width: 100vw;
+  /* overflow-x: hidden; */
 }
 .main-container {
   background-color: #fff;
@@ -112,14 +113,20 @@ h1 {
   align-items: center;
   gap: 1.6rem;
   background-color: #f6fbff;
+  padding: 4.5rem 0;
 }
 .mobile-top1 {
   width: 100%;
 }
+.desktop-top1,
+.desktop-bottom1,
+.desktop-top2,
+.desktop-bottom2 {
+  display: none;
+}
 .grow-illustration {
   width: 258px;
 }
-
 .grow-div h2 {
   font-family: "Poppins", sans-serif;
   text-align: center;
@@ -170,6 +177,7 @@ h1 {
   align-items: center;
   gap: 1.6rem;
   background-color: #f6fbff;
+  padding-bottom: 6rem;
 }
 .user-image {
   width: 267px;
@@ -207,11 +215,14 @@ h1 {
 footer {
   display: flex;
   flex-direction: column;
+}
+.footer-content-div {
+  display: flex;
+  flex-direction: column;
   align-items: center;
   background-color: #00252e;
   color: #fff;
   font-size: 1.4rem;
-  padding: 8rem 0 4.6rem 2.8rem;
 }
 footer h2 {
   font-size: 2rem;
@@ -223,7 +234,7 @@ footer p {
   line-height: 2.4rem;
   max-width: 32rem;
 }
-.subscribe {
+#subscribe {
   font-size: 1.6rem;
   font-weight: 700;
   line-height: 2.4rem;
@@ -232,24 +243,56 @@ footer p {
   color: #fff;
   border: none;
   padding: 1.2rem 4.1rem;
+  cursor: pointer;
+}
+#error-message {
+  display: none;
+  color: #ff4343;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 2.4rem;
 }
 .footer-cont1 {
   display: grid;
   gap: 1.6rem;
-  justify-items: center;
+  justify-items: start;
 }
 .footer-cont2 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 1.6rem;
+  margin-top: 10rem;
+}
+.footer-cont2 p {
+  margin-bottom: 2.4rem;
 }
 .phone {
   display: flex;
   gap: 1.6rem;
+  align-items: flex-start;
 }
 .email {
   display: flex;
   gap: 1.6rem;
-  align-items: center;
+  align-items: flex-start;
+}
+@media (min-width: 1400px) {
+  .statistics {
+    flex-direction: row;
+  }
+  .desktop-top1,
+  .desktop-bottom1,
+  .desktop-top2,
+  .desktop-bottom2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .mobile-top1,
+  .mobile-bottom1,
+  .mobile-top2,
+  .mobile-bottom2 {
+    display: none;
+  }
 }
