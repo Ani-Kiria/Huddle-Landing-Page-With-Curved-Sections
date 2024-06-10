@@ -465,6 +465,7 @@ section {
   section {
     flex-direction: row;
     gap: 4rem;
+    align-items: flex-start;
   }
   svg:hover path {
     fill: #00c7fa;
