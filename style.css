@@ -133,6 +133,7 @@ h1 {
   font-size: 2rem;
   font-weight: 700;
   line-height: 30px;
+  margin: 7rem 0 1.6rem;
 }
 .grow-div p {
   text-align: center;
@@ -150,8 +151,6 @@ h1 {
 }
 .conversation-image {
   width: 265.5px;
-  height: 189px;
-  margin: 7rem;
 }
 .conversation-container h2 {
   text-align: center;
@@ -364,11 +363,37 @@ footer p {
     font-size: 4rem;
     line-height: 6rem;
     padding-bottom: 2.6rem;
+    margin: 0;
+    text-align: left;
   }
   .grow-div p {
     font-size: 1.6rem;
     line-height: 2.4rem;
     min-width: 52rem;
     text-align: left;
+  }
+  .conversation-container {
+    flex-direction: row;
+    margin: 19.5rem 0 11.1rem;
+  }
+  .conversation-image {
+    width: 531px;
+  }
+  .conversation-container h2 {
+    font-size: 4rem;
+    line-height: 6rem;
+    text-align: left;
+  }
+  .conversation-container p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    text-align: left;
+    min-width: 520px;
+  }
+  .conversation-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2.6rem;
+    margin-left: 13.4rem;
   }
 }
