@@ -13,7 +13,7 @@ body {
   font-family: "Open Sans", sans-serif;
   line-height: 1.5;
   color: #00252e;
-  width: 100vw;
+
   /* overflow-x: hidden; */
 }
 .main-container {
@@ -465,5 +465,9 @@ section {
   section {
     flex-direction: row;
     gap: 4rem;
+  }
+  svg:hover path {
+    fill: #00c7fa;
+    cursor: pointer;
   }
 }
