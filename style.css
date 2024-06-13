@@ -13,8 +13,6 @@ body {
   font-family: "Open Sans", sans-serif;
   line-height: 1.5;
   color: #00252e;
-
-  /* overflow-x: hidden; */
 }
 .main-container {
   background-color: #fff;
@@ -306,7 +304,7 @@ section {
   gap: 1.8rem;
   padding-bottom: 4.6rem;
 }
-@media (min-width: 1400px) {
+@media (min-width: 1440px) {
   header {
     padding: 7.8rem 0 22rem;
   }
